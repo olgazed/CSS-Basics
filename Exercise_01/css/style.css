@@ -1,0 +1,77 @@
+/*CSS Stylesheet for Exercise_01: Ticket ID: 409788*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 0.7rem;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+   	background-color: #595656;
+   	width: 310px;
+   	height: 210px; 
+   	margin: 15% auto;  		
+}
+
+th { 
+	font-size: 1rem;
+	font-weight: normal;
+	color: #c7cbcc;
+	padding-top: 10px;
+	padding-left: 3px;
+	padding-bottom: 15px;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+
+
+tr > td:first-child {
+	font-style: italic;
+	color: #fff;
+	width: 30%;
+}
+
+tr > td:last-child {
+	color: #c7cbcc;
+}
+
+a {
+	color: #f9eaae;
+	text-decoration: none;
+}
+
+p {
+	font-weight: bold;
+	color: #f20202;
+	margin: 0;
+	line-height: 1rem;
+}
+
+span {
+	font-weight: bold;
+	color: #e27b1b;
+}
+
+.name {
+	font-weight: normal;
+	color: #f9eaae;	
+} 
+
+p.name:before {
+	content: "\2022";
+  font-size: 2.5rem;
+  color: #77ba80;
+  line-height: 0.9rem;
+  vertical-align: top;
+  padding-right: 2px;
+}
+
+.bottom {
+	vertical-align: bottom;
+	padding-bottom: 7px;
+}

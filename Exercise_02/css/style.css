@@ -1,0 +1,68 @@
+/*CSS Stylesheet for Exercise_02: Personal Details Table*/
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 0.7rem;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid #c9c7c5;
+   	width: 470px;
+   	height: 130px; 
+   	margin: 20% auto;  		
+}
+
+
+th { 
+	font-weight: normal;
+	color: #fff;
+	background-color: #60ce21;
+	border-bottom: 1px solid #939290;
+	border-left: 1px solid #939290;
+	padding: 4px 6px 8px 6px;
+	vertical-align: top;
+}
+
+tbody > tr:nth-child(even) {
+	background-color: #efebe6;
+}
+
+td {
+	padding: 4px;
+	border-left: 1px solid #c9c7c5;
+}
+
+tr > td:first-child,
+tr > th:first-child {
+	border-left: none;
+}
+
+tr > td:last-child {
+	width: 18%;
+}
+
+tr > td:nth-child(2) {
+	padding-left: 6px;	
+}
+
+input[type="image"] {
+	width: 20px;
+	height: 15px;
+	padding-right: 8px;
+	padding-left: 3px;
+	vertical-align: bottom;
+}
+
+label {
+	vertical-align: top;
+}
+
+input[type="checkbox"] {
+	background-color: #969491;
+	box-shadow: 1px 1px 2px #4c4b4a inset;
+	margin-left: 8px;
+}
+
+/*Не получилось у меня чекбоксы сделать точно такими, как на картинке, к сожалению((*/

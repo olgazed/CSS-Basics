@@ -1,0 +1,47 @@
+/*CSS Stylesheet with different styles for Exercise_04: Calculator*/
+
+table {
+   	background-color: #dcc3dd;
+   	width: 300px;
+   	height: 350px;
+   	margin: 11% auto;
+}
+
+tr, td {
+	border: 5px outset #7c657c;
+}
+
+input[type="text"] {
+	width: 280px;
+	height: 60px;
+	background-color: #dcc3dd;
+	padding: 5px;
+}
+
+input::placeholder {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #552d56;
+	text-shadow: 2px 2px 5px #201821;
+	text-align: right;
+}
+
+input[type="button"] {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #552d56;
+	text-shadow: 3px 3px 2px #201821;
+	background-color: #dcc3dd;
+	border: none;
+	width: 63px;
+	height: 60px;
+	padding: 5px 8px;
+}
+
+td[colspan="2"] {
+	text-align: right;
+}
+
+/*The calculator with differnt styles*/
